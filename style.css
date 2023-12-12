@@ -1,0 +1,57 @@
+:root {
+    --color-main: #FFCB0F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav a.active {
+    color: var(--color-main) !important;
+    font-weight: 700;
+}
+
+.home {
+    background-image: linear-gradient(#000a, rgba(130, 115, 115, 0.667)), url(./images/img3.jpg);
+    background-size: cover;
+}
+
+.description {
+    max-width: 500px;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.logo {
+    color: white;
+}
+
+.btn-outline {
+    --bs-btn-color: #fff;
+    --bs-btn-border-color: #FFCB0F;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #FFCB0F;
+    --bs-btn-hover-border-color: #FFCB0F;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-gradient: none;
+    --bs-btn-border-radius: 100vh;
+    --bs-btn-padding-x: 1.25rem;
+    --bs-btn-padding-y: 0.50rem;
+}
+
+/*  */
+/*  */
+
+.upload {
+    background-image: linear-gradient(#000a, rgba(130, 115, 115, 0.667)), url(./images/safety-7189102_1280.jpg);
+    background-size: cover;
+}
+
+.upload div {
+    width: 50%;
+    height: 50%;
+    border: 1px solid;
+}
